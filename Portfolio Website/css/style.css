@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+
+.first
+{
+    align-items: center;
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/laptop.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+.first .firstContainer-1 
+{
+    font-family: 'lato', 'sans-serif';
+    font-size: 16px;
+    background-color: white;
+    height: 8vh;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    border:2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+}
+
+.firstContainer-1 .pages
+{
+    padding: 8px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 2px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.firstContainer-1 .pages:hover
+{
+    background-color: rgb(212, 211, 211);
+}
+
+
+.first .firstContainer-2 
+{
+    font-family: 'lato', 'sans-serif';
+    height: 35vh;
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin-bottom: 75px;
+
+}
+
+
+.roundBtn
+{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 25px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    transition: .5s ease all;
+    margin-top: 27px;
+}
+
+.roundBtn:hover
+{
+    background-color: white;
+    color: #337ab7;
+}
+
+.about
+{
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+}
+
+.name
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+.designation
+{
+    color: #A0CFEE;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+}
+
+.firstContainer-3
+{
+    height: 11vh;
+    width: 10%;
+    
+}
+
+.downIcon
+{
+    margin: auto;
+    height: 10vh;
+    width:100%;
+    color:#FFFFFF;
+}
+
+
+/* The CSS Code For About Me Page */
+
+.aboutSection
+{
+    background-color:white;
+    height: 27vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe
+{
+    background-color: white;
+    height: 10vh;
+    width: 20%;
+    margin-top: 55px;
+}
+
+.aboutHead
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #374054;
+    margin-left: 45px;
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+}
+
+.aboutPara
+{
+    height: 18vh;
+    width: 80%;
+    margin-top: 55px;
+}
+
+.aboutDesc
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #74808a;
+}
+
+
+/* The CSS Code For Education Page */
+
+.educationSection
+{
+    background-color: #f2f2f5;
+    border-top: 1px solid#dcd9d9;
+    border-bottom: 1px solid#dcd9d9;
+    height: fit-content;
+    padding: 25px;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.educationTitle
+{
+    height: 8vh;
+    width: 100%;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #374054;
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+    text-align: center;
+}
+
+.bachelor
+{
+    padding: 10px;
+    background-color: #FFFFFF;
+    height: 20vh;
+    width: 50%;
+    display: flex;  
+    margin-left: 25%;
+    margin-top: 50px;
+    border: 1px solid #dcd9d9;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upperBachelorDetails
+{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+
+}
+
+.bachelorName
+{
+    height: 9vh;
+    width: 69%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.universityName
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18.72px;
+    color: #374054;
+    height: 4.5vh;
+}
+
+
+.courseName
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;   
+    color: #74808a;
+    height: 4.5vh;
+    width: 100%;
+}
+
+.universityDuration
+{
+    margin-top: 60px;
+    height: 4vh;
+    width: 28.5%;
+    text-align: right;
+
+}
+
+.universityDuration-2
+{
+    margin-top: 60px;
+    height: 4vh;
+    width: 28.5%;
+    text-align: right;
+
+}
+
+.universityDuration-3
+{
+    margin-top: 60px;
+    height: 5vh;
+    width: 28.5%;
+    text-align: right;
+
+}
+
+.uniDurationInfo
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; 
+    color: #74808a;
+}
+
+.bachelorDescription
+{
+    height: 9vh;
+    width: 90%;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.bachelorItems
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 14.4px; 
+    color: #74808a;
+}
+
+
+/* The CSS Code For Projects Page */
+
+.projectSection
+{
+    background-color: #fff;
+    height: 223vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectTitle
+{
+    height: 7vh;
+    width: 8%;
+    margin-top: 55px;
+}
+
+.projectHead
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #374054;
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+}
+
+.project-1
+{
+    margin-top: 55px;
+    height: 42vh;
+    width: 57.5%;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 8%), 0 3px 6px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: row;
+    transition: transform .2s;
+}
+
+.project-1:hover
+{
+    transform: scale(1.2);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+}
+
+
+.project-1Screenshot
+{
+    background: url("../screenshots/JavaProject2.png");
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+
+.project-2Screenshot
+{
+    background: url("../screenshots/Python.png");
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+
+.project-3Screenshot
+{
+    background: url("../screenshots/XML.png");
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+
+.project-4Screenshot
+{
+    background: url("../screenshots/JavaStaffHire.png");
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+
+
+.project-1Description
+{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.project-1Name
+{
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.project-1Title
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: #374054;
+    text-align: center;
+}
+
+.project-1Details
+{
+    height: 18vh;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.project-1Details2
+{
+    height: 13vh;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.project-1Details3
+{
+    height: 10vh;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.project-1Details4
+{
+    height: 12.5vh;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.project-1Para
+{
+    text-align: center;
+    color: #74808a;
+    font-family: 'Lato', sans-serif;
+    font-size: 14.4;
+}
+
+.viewProject-1
+{
+    height: 4vh;
+    width: 100%;
+    text-align: center;
+}
+
+.viewProject
+{
+    text-decoration: none;
+    color: #337ab7;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.viewProject:hover
+{
+    text-decoration: underline;
+}
+
+
+/* The CSS Code For Skills Page */
+
+.skillSection
+{
+    background-color: #f2f2f5;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid#dcd9d9;
+    border-top: 1px solid#dcd9d9;
+}
+
+.skillTitle
+{
+    height: 7vh;
+    width: 5.5%;
+    margin-top: 55px;
+}
+
+.skillHead
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #374054;
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+}
+
+.skill-details
+{
+    padding: 20px;
+    background-color: white;
+    margin-top: 55px;
+    height: 62.5vh;
+    width: 40%;
+    border: 1px solid#74808a;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 8%), 0 3px 6px rgb(0 0 0 / 15%);
+}
+
+.skill-details .bar
+{
+    margin: 20px 0;
+
+}
+
+.skill-details .bar:first-child
+{
+    margin-top: 0px;
+}
+
+.skill-details .bar .skill-info
+{
+    margin-bottom: 5px;
+}
+
+.skill-details .bar .skill-info span
+{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText 
+{
+    100%
+    {
+      opacity: 1;
+    }
+  }
+
+.skill-details .bar .progress-line
+{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px rgba (0,0,0,0.05), 0px 1px rgba (255,255,255,0.8);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+
+}
+
+@keyframes animate 
+{
+    100%
+    {
+      transform: scaleX(1);
+    }
+}
+
+
+
+.bar .progress-line span
+{
+    height: 100%;
+    width: 80%;
+    background: #2196F3;
+    position: absolute;
+    transform: scale(0);
+    transform-origin: left;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-line.HTML span
+{
+    width: 90%;
+
+}
+
+.progress-line.CSS span
+{
+    width: 70%;
+
+}
+
+.progress-line.JavaScript span
+{
+    width: 40%;
+
+}
+
+.progress-line.XML span
+{
+    width: 50%;
+
+}
+
+.progress-line.Java span
+{
+    width: 75%;
+
+}
+
+.progress-line.Python span
+{
+    width: 60%;
+
+}
+
+.progress-line.Oracle span
+{
+    width: 40%;
+
+}
+
+.progress-line.MySQL span
+{
+    width: 40%;
+}
+
+
+.bar .progress-line span::before 
+{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.bar .progress-line span::after
+{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 
+{
+    100%
+    {
+      opacity: 1;
+    }
+ }
+
+.progress-line.HTML span::after
+{
+    content: "90%";
+
+}
+
+.progress-line.CSS span::after
+{
+    content: "70%";
+
+}
+
+.progress-line.JavaScript span::after
+{
+    content: "40%";
+
+}
+
+.progress-line.XML span::after
+{
+    content: "50%";
+
+}
+
+.progress-line.Java span::after
+{
+    content: "75%";
+
+}
+
+.progress-line.Python span::after
+{
+    content: "60%";
+
+}
+
+.progress-line.Oracle span::after
+{
+    content: "40%";
+
+}
+
+.progress-line.MySQL span::after
+{
+    content: "40%";
+
+}
+
+
+/* The CSS code for Contact Starts from Here */
+
+.contactSection
+{
+    background-color: #3498db;
+    height: 57vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactSection .contactTitle
+{
+    height: 7vh;
+    width: 12%;
+    margin-top: 55px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.contactSection .contact-form
+{
+    height: 42vh;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-form .contact-email
+{
+    height: 6.5vh;
+    width: 100%;
+}
+
+.contact-form .contact-email .email-properties
+{
+    padding-left: 6px;
+    margin-top: 4px;
+    margin-left: 4px;
+    height:98%;
+    width: 98%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border: none;
+    background: #1d6fa5;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact-form .contact-email .email-properties::placeholder
+{
+    color: #FFFFFF;
+}
+
+.contact-form .contact-message
+{
+    margin-top: 16px;
+    height: 20vh;
+    width: 100%;
+}
+
+.contact-form .contact-message .message-properties
+{
+    padding-left: 6px;
+    margin-left: 4px;
+    height:98%;
+    width: 98%;
+    border: none;
+    color:white;
+    background: #1d6fa5;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact-form .contact-message .message-properties::placeholder
+{
+    color: #FFFFFF;
+}
+
+.contactSection .contact-form .contact-submit
+{
+    padding-left: 3.5px;
+    margin-top: 12.5px;
+    height: 5vh;
+    width: 100%;
+}
+
+.contactSection .contact-form .contact-submit .button-properties
+{
+    margin-left: 4px;
+    color: #3498db;
+    height: 98%;
+    width: 98%;
+    background-color: white;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: .5s ease all;
+}
+
+.contactSection .contact-form .contact-submit .button-properties:hover
+{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+/* The CSS coding for bottom page starts here */
+.bottom
+{
+    background-color: white;
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom .copyright
+{
+    height: 98%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .copyright .copyright-properties
+{
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 60%;
+    height: 7vh;
+    color: #74808a;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.bottom .top-button
+{
+    height: 98%;
+    width: 33.33%;
+}
+
+.bottom .top-button .top-button-properties
+{
+    margin-top: 65px;
+    margin-left: 200px;
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+}
+
+
+.up-button
+{
+    height: 6vh;
+    width: 98%;
+    color: #74808a;
+}
+
+.up-button:hover
+{
+    color:#337ab7;
+}
+
+.social-medias
+{
+    background-color: white;
+    height: 98%;
+    width: 33.33%;
+}
+
+.social-medias .social-icons
+{
+    margin-top: 70px;
+    height: 13vh;
+    width: 100%;
+
+}
+
+.social-medias .social-icons .icon-list
+{
+    height: 99%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.social-medias .social-icons .social-icon-properties
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.social-medias .social-icons .social-icon-properties .icon-details
+{
+    color:#74808a;
+    height: 5vh;
+    font-size: 22px;
+}
+
+.social-medias .social-icons .social-icon-properties .icon-details:hover
+{
+    color:#337ab7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
